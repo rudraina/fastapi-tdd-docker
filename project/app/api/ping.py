@@ -7,7 +7,7 @@ router = APIRouter()
 
 @router.get('/ping')
 async def pong(settings: Settings = Depends(get_settings)):
-    return {'ping': 'poggers',
+    return {'ping': 'poggers!!!!',
             'environment': settings.environment,
             'testing': settings.testing
             }
